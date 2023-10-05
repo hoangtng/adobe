@@ -58,6 +58,13 @@ a {
   height: 80%;
 }
 
+.card img {
+  height: 35rem;
+  max-height: 40rem;
+}
+
+
+
 .foreground {
   position: relative;
   z-index: 4;
@@ -70,7 +77,6 @@ footer {
 .foreground1 {
   background: rgb(152,227,237);
   background: linear-gradient(90deg, rgba(152,227,237,1) 17%, rgba(35,213,233,1) 73%, rgba(37,206,238,1) 93%);
-
 }
 
 .foreground2 {
@@ -83,6 +89,26 @@ footer {
 
 .foreground4 {
   background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+.acrobat-color {
+  background: linear-gradient(-60deg, #231557 10%, #44107A 62%, #FF1361 100%, #FFF800 100%);
+
+
+}
+
+
+.card-header {
+  color: #f9ffff;
+  font-weight: 550;
+}
+
+.card-body, .card-footer-overlay {
+  background-color: #F8F8F8;
+}
+.card-header .card-title {
+  color: #f9ffff;
+  font-weight: 700;
 }
 
 .foreground5 {
@@ -130,6 +156,7 @@ footer {
   height: 35rem;
   max-height: 40rem;
 }
+
 .foreground4 .card-text, .foreground4 a {
   color: #f9ffff;
   font-weight: 550;
